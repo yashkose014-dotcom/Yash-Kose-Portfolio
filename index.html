@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Kose | Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Yash Kose - Full Stack Developer specializing in React, Node.js, and modern web architecture."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/scroll-animation.css" />
+  </head>
+  <body>
+    <!-- Background Canvas Animation -->
+    <section id="scroll-animation" class="scroll-animation" aria-label="Interactive background">
+      <div class="scroll-animation__sticky">
+        <canvas id="frame-canvas" class="scroll-animation__canvas"></canvas>
+        <div class="scroll-animation__loader" id="loader">
+          <div class="scroll-animation__loader-bar" id="loader-bar"></div>
+          <p class="scroll-animation__loader-text" id="loader-text">Loading experience… 0%</p>
+        </div>
+      </div>
+      <div class="scroll-animation__spacer" aria-hidden="true"></div>
+    </section>
+
+    <!-- Main Page Wrapper -->
+    <div class="page-shell">
+      <!-- Site Header -->
+      <header class="site-header reveal">
+        <div class="brand">
+          <span class="brand-mark">YK</span>
+          <span class="brand-text">Yash Kose</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#stack">Stack</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="header-button" href="#contact">Let’s Talk</a>
+      </header>
+
+      <!-- Main Content -->
+      <main class="portfolio-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero reveal">
+          <div class="hero__content">
+            <p class="eyebrow">FULL STACK DEVELOPER</p>
+            <h1>Yash Kose</h1>
+            <p class="hero-copy">
+              Computer Science graduate with hands-on experience building web applications using React, Node.js, Express, and MySQL/MongoDB. Passionate about clean architecture, responsive UX design, and scalable backend solutions.
+            </p>
+
+            <div class="hero__actions">
+              <a class="primary-btn" href="#projects">View Projects</a>
+              <a class="secondary-btn" href="#about">About Me</a>
+              <a class="primary-btn outline" href="Yash-Kose-Resume.pdf" download>Download Resume</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Key highlights">
+              <li>
+                <strong>2022 – 2026</strong>
+                <span>B.E. Computer Science</span>
+              </li>
+              <li>
+                <strong>7.50 CGPA</strong>
+                <span>Current Aggregate</span>
+              </li>
+              <li>
+                <strong>89.60%</strong>
+                <span>HSC (Class XII)</span>
+              </li>
+              <li>
+                <strong>78.00%</strong>
+                <span>SSC (Class X)</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__panel">
+            <div class="profile-card">
+              <div class="profile-card__badge">Available for Work</div>
+              <div class="profile-card__avatar">
+                <span>YK</span>
+              </div>
+              <h3>Yash Kose</h3>
+              <p>Full Stack Developer</p>
+
+              <div class="profile-card__meta">
+                <div class="meta-item">
+                  <small>Location</small>
+                  <strong>Nagpur, Maharashtra</strong>
+                </div>
+                <div class="meta-item">
+                  <small>Education</small>
+                  <strong>B Tech - CSE</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">ABOUT ME</p>
+            <h2>Passionate about building scalable digital solutions.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+              Hi, I'm Yash Kose, Aspiring Full Stack Developer with a strong interest in building modern, responsive, and user-friendly web applications I have hands-on experience with HTML, CSS, JavaScript, React.js, Node.js, Express.js, SQL, and MySQL, and I enjoy turning ideas into functional web applications. I have worked on projects such as a School ERP System and a Recipe App, where I gained practical experience in frontend development, backend integration, database management, authentication, and application functionality.
+              I'm continuously improving my problem-solving and development skills by building projects and learning new technologies. My goal is to start my career as a Full Stack Developer, contribute to real-world projects, and grow as a software developer.
+</p>
+              
+            </div>
+
+            <div class="about-points">
+              <div class="point-card">
+                <span class="point-num">01</span>
+                <div class="point-info">
+                  <h3>Frontend Development</h3>
+                </div>
+              </div>
+              <div class="point-card">
+                <span class="point-num">02</span>
+                <div class="point-info">
+                  <h3>Backend Architecture</h3>
+                </div>
+              </div>
+              <div class="point-card">
+                <span class="point-num">03</span>
+                <div class="point-info">
+                  <h3>Database&nbsp;&amp; Tools</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Technical Stack Section -->
+        <section id="stack" class="section-card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">TECHNICAL SKILLS</p>
+            <h2>Languages, frameworks, databases & tools.</h2>
+          </div>
+
+          <div class="tech-grid">
+            <div class="tech-item"><span>JavaScript (ES6+)</span></div>
+            <div class="tech-item"><span>Python</span></div>
+            <div class="tech-item"><span>React.js</span></div>
+            <div class="tech-item"><span>Node.js</span></div>
+            <div class="tech-item"><span>Express.js</span></div>
+            <div class="tech-item"><span>MongoDB</span></div>
+            <div class="tech-item"><span>MySQL</span></div>
+            <div class="tech-item"><span>HTML5 & CSS3</span></div>
+            <div class="tech-item"><span>RESTful APIs</span></div>
+            <div class="tech-item"><span>Git & GitHub</span></div>
+            <div class="tech-item"><span>Postman</span></div>
+            <div class="tech-item"><span>OOPS</span></div>
+          </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">FEATURED PROJECTS</p>
+            <h2>Selected works & software implementations.</h2>
+          </div>
+
+          <div class="project-grid">
+            <!-- Project 1 -->
+            <article class="project-card-item">
+              <div class="project-card-item__visual visual-one"></div>
+              <div class="project-card-item__body">
+                <span class="project-tag">WEB APPLICATION</span>
+                <h3>School ERP System</h3>
+                <p>
+                  Comprehensive management system featuring role-based dashboards for Teachers, Students, and Admins. Supports attendance tracking, notice boards, and student record management.
+                </p>
+                <ul class="tech-tags">
+                  <li>HTML/CSS</li>
+                  <li>JavaScript</li>
+                  <li>MySQL</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card-item">
+              <div class="project-card-item__visual visual-two"></div>
+              <div class="project-card-item__body">
+                <span class="project-tag">FULL STACK PORTAL</span>
+                <h3>Job Placement Portal</h3>
+                <p>
+                  Recruitment platform enabling employers to post job opportunities and manage applications, while students can browse roles and track application status and students can also apply for job.
+                </p>
+                <ul class="tech-tags">
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>MongoDB</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card-item">
+              <div class="project-card-item__visual visual-three"></div>
+              <div class="project-card-item__body">
+                <span class="project-tag">FRONTEND APPLICATION</span>
+                <h3>Spotify Clone</h3>
+                <p>
+                  Interactive music streaming UI built using HTML, CSS, and Vanilla JavaScript. Utilizes browser Audio API for audio playback, custom controls, and track progress tracking.
+                </p>
+                <ul class="tech-tags">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript API</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section-card reveal">
+          <div class="section-heading">
+            <p class="eyebrow">EDUCATION</p>
+            <h2>Academic background & qualifications.</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-year">2022 – 2026</span>
+              <div class="timeline-content">
+                <h3>GH Raisoni Institute of Engineering and Technology, Nagpur</h3>
+                <p>Bachelor of Engineering – Computer Science & Engineering (CGPA: 7.50)</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-year">2022</span>
+              <div class="timeline-content">
+                <h3>Defence Services Academy, Bhandara</h3>
+                <p>Higher Secondary Certificate (HSC) – 89.60%</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-year">2020</span>
+              <div class="timeline-content">
+                <h3>New Orange City Convent, Warud</h3>
+                <p>Secondary School Certificate (SSC) – 78.00%</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-panel reveal">
+          <div class="contact-text">
+            <p class="eyebrow">CONTACT</p>
+            <h2>Let’s connect & build together.</h2>
+            <p class="contact-sub">Open to junior full stack roles, freelance projects, and collaborations.</p>
+          </div>
+
+          <div class="contact-buttons">
+            <a href="tel:+918180952398" class="primary-btn">+91 8180952398</a>
+            <a href="mailto:yashkose014@gmail.com" class="secondary-btn">yashkose014@gmail.com</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Application Script -->
+    <script src="js/scroll-animation.js" type="module"></script>
+  </body>
+</html>
+
