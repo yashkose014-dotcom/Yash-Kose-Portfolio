@@ -23,7 +23,7 @@ I am an aspiring **Full Stack Developer** and **Computer Science & Engineering**
 * **Frontend:** React.js, HTML5, Modern Vanilla CSS, Canvas API, Interactive Web Animations
 * **Backend:** Node.js, Express.js, RESTful APIs, OOPS Architecture
 * **Databases:** MongoDB, MySQL
-* **Tools & Platforms:** Git, GitHub, Postman, Vercel
+* **Tools & Platforms:** Git, GitHub, GitHub Actions, GitHub Pages, Postman
 
 ---
 
@@ -63,7 +63,7 @@ I am an aspiring **Full Stack Developer** and **Computer Science & Engineering**
 * **Interactive Frame-Canvas Scroll Engine:** Custom HTML5 Canvas preloader and smooth frame animation synchronized with scroll behavior.
 * **Modern Design Aesthetics:** Dark mode theme with sleek glassmorphism panels, Inter typography, dynamic badge indicators, and smooth UI reveals.
 * **Zero-Dependency Node.js Dev Server (`server.js`):** Lightweight local HTTP server supporting auto-MIME handling and automatic port fallback (`3000+`).
-* **Vercel Cloud Deployment Ready:** Includes `vercel.json` rewrite routing configuration for seamless SPA/static hosting.
+* **Automated GitHub Pages Deployment:** Powered by GitHub Actions workflow (`.github/workflows/deploy.yml`) for instant static deployment.
 
 ---
 
@@ -71,16 +71,15 @@ I am an aspiring **Full Stack Developer** and **Computer Science & Engineering**
 
 ```
 PORTFOLIO/
+├── .github/workflows/
+│   └── deploy.yml              # Automated GitHub Pages deployment workflow
 ├── css/
 │   └── scroll-animation.css    # Main design tokens, glassmorphism & canvas styling
 ├── js/
 │   └── scroll-animation.js     # Canvas image frame loader & scroll control logic
-├── frames/                     # Rendered animation frame assets
-├── video_frames_30fps/         # Video frame source assets
-├── public/                     # Static media & public assets
+├── public/                     # Static media & frame image assets
 ├── index.html                  # Main portfolio website entry point
 ├── server.js                   # Lightweight Node.js HTTP server
-├── vercel.json                 # Vercel deployment rewrite configuration
 ├── package.json                # NPM configuration & scripts
 └── Yash-Kose-Resume.pdf        # Downloadable developer resume
 ```
@@ -114,13 +113,11 @@ Alternatively, you can open `index.html` directly in any web browser or use VS C
 
 ---
 
-## 🌐 Deployment
+## 🌐 Deployment (GitHub Pages)
 
-This project is configured for instant deployment on [Vercel](https://vercel.com/):
+This repository is configured with automated deployment via **GitHub Actions**.
 
-```bash
-npx vercel
-```
+Whenever changes are pushed to the `main` branch, GitHub Actions builds and publishes your site automatically to GitHub Pages.
 
 ---
 
