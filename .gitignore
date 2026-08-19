@@ -2,3 +2,6 @@
 node_modules/
 .DS_Store
 *.log
+video_frames_30fps.zip
+video_frames_30fps/
+frames/
