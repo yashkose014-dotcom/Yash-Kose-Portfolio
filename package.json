@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
     "build": "echo \"No build step required for this static HTML/CSS/JS site.\""
   }
 }
